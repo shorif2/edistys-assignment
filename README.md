@@ -81,10 +81,10 @@ The project is deployed using [Vercel Pages]. You can check out the live version
 
 If you have any questions or feedback, feel free to reach out:
 
-- 📧 Email: your.email@example.com
-- 🐦 Twitter: [@yourhandle](https://www.linkedin.com/in/sorifuzzaman/)
-- 💼 LinkedIn: [Your Profile](https://www.linkedin.com/in/sorifuzzaman/)
+- 📧 Email: xshorifahamed@gmail.com
+- 🐦 Twitter: [@sorifuzzaman](https://www.linkedin.com/in/sorifuzzaman/)
+- 💼 LinkedIn: [Sorifuzzaman](https://www.linkedin.com/in/sorifuzzaman/)
 
 ---
 
-Made with ❤️ by [Your Name] 🚀
+Made with ❤️ by [Sorifuzzaman] 🚀
