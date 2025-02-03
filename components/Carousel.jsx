@@ -30,13 +30,13 @@ const Carousel = () => {
         slidesPerView={1}
         modules={[Navigation, Autoplay]}
         // onSlideChange={() => console.log("slide change")}
-        // autoplay={{ delay: 1000 }}
+        autoplay={{ delay: 5000 }}
         // onSwiper={(swiper) => console.log(swiper)}
       >
         <SwiperSlide>
           <article className="grid lg:grid-cols-2 grid-cols-1 md:gap-[32px] lg:p-[64px] rounded-[20px] mb-5 p-[24px] lg:h-[550px] bg-white">
-            <section className="lg:space-y-6 space-y-sm">
-              <header className="lg:space-y-6 space-y-xs">
+            <section className="space-y-4 lg:space-y-6 ">
+              <header className="space-y-4 lg:space-y-6 ">
                 <h6 className="lg:text-head-6 text-res-head-6 uppercase text-blue-main font-Montserrat">
                   Customer focused
                 </h6>{" "}
@@ -91,8 +91,8 @@ const Carousel = () => {
         </SwiperSlide>
         <SwiperSlide>
           <article className="grid lg:grid-cols-2 grid-cols-1 md:gap-[32px] lg:p-[64px] rounded-[20px] mb-5 p-[24px] lg:h-[550px] bg-white">
-            <section className="lg:space-y-6 space-y-sm">
-              <header className="lg:space-y-6 space-y-xs">
+            <section className="space-y-4 lg:space-y-6 ">
+              <header className="space-y-4 lg:space-y-6 ">
                 <h6 className="lg:text-head-6 text-res-head-6 uppercase text-blue-main font-Montserrat">
                   Agile and adaptable
                 </h6>{" "}
@@ -147,8 +147,8 @@ const Carousel = () => {
         </SwiperSlide>
         <SwiperSlide>
           <article className="grid lg:grid-cols-2 grid-cols-1 md:gap-[32px] lg:p-[64px] rounded-[20px] mb-5 p-[24px] lg:h-[550px] bg-white">
-            <section className="lg:space-y-6 space-y-sm">
-              <header className="lg:space-y-6 space-y-xs">
+            <section className="space-y-4 lg:space-y-6 ">
+              <header className="space-y-4 lg:space-y-6 ">
                 <h6 className="lg:text-head-6 text-res-head-6 uppercase text-blue-main font-Montserrat">
                   Customer focused
                 </h6>{" "}
@@ -203,8 +203,8 @@ const Carousel = () => {
         </SwiperSlide>
         <SwiperSlide>
           <article className="grid lg:grid-cols-2 grid-cols-1 md:gap-[32px] lg:p-[64px] rounded-[20px] mb-5 p-[24px] lg:h-[550px] bg-white">
-            <section className="lg:space-y-6 space-y-sm">
-              <header className="lg:space-y-6 space-y-xs">
+            <section className="space-y-4 lg:space-y-6 ">
+              <header className="space-y-4 lg:space-y-6 ">
                 <h6 className="lg:text-head-6 text-res-head-6 uppercase text-blue-main font-Montserrat">
                   Customer focused
                 </h6>{" "}

@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+.font-Montserrat {
+  font-family: "Montserrat", sans-serif;
+}
+
 .gradient-overlay.test {
   position: absolute;
   top: 0;
@@ -35,15 +39,13 @@
   font-weight: 700;
 }
 
-.text-res-head-6 {
-  font-size: 12px;
-  line-height: 1.5;
-  letter-spacing: 1.44px;
-  font-weight: 700;
-}
-
 .text-res-head-2 {
   font-size: 32px;
+  line-height: 120%;
+  font-weight: 600;
+}
+.text-res {
+  font-size: 56px;
   line-height: 120%;
   font-weight: 600;
 }
@@ -61,10 +63,6 @@
 .text-blue-main {
   --tw-text-opacity: 1;
   color: rgb(31 128 240 / var(--tw-text-opacity));
-}
-
-.font-Montserrat {
-  font-family: Montserrat Variable, sans-serif;
 }
 
 .boxShadow {
@@ -88,12 +86,6 @@
   color: rgb(31 128 240 / var(--tw-text-opacity));
 }
 
-.text-head-6 {
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 2.56px;
-  font-weight: 700;
-}
 #contact.svelte-vr11vg {
   background: radial-gradient(
     24.45% 88.58% at 23.57% 2%,
@@ -107,6 +99,7 @@
   -webkit-clip-path: polygon(0 0, 100% 49%, 100% 100%, 0% 100%);
   clip-path: polygon(0 0, 100% 49%, 100% 100%, 0% 100%);
 }
+
 .bg-orange-main {
   --tw-bg-opacity: 1;
   background-color: rgb(254 139 83 / var(--tw-bg-opacity));
@@ -121,16 +114,7 @@
   --tw-border-opacity: 1;
   border-color: rgb(22 67 119 / var(--tw-border-opacity));
 }
-@media only screen and (max-width: 1024px) {
-  #hello.test {
-    background: radial-gradient(
-      134.02% 81.35% at -9.66% 129.92%,
-      #00e9ea 0%,
-      #1f80f0 52.08%,
-      #005bc4 100%
-    );
-  }
-}
+
 @layer base {
   :root {
     --background: 0 0% 100%;
@@ -192,5 +176,16 @@
   }
   body {
     @apply bg-background text-foreground;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  #hello.test {
+    background: radial-gradient(
+      134.02% 81.35% at -9.66% 129.92%,
+      #00e9ea 0%,
+      #1f80f0 52.08%,
+      #005bc4 100%
+    );
   }
 }

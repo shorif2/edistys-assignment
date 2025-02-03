@@ -3,7 +3,7 @@ import React from "react";
 
 const Navbar = () => {
   return (
-    <header className="  bg-transparent text-white max-lg:bg-blue-main max-lg:py-8 top-0 lg:absolute w-full lg:pt-[17px] lg:pb-[25px] text-res-body-p1 lg:text-body-p1 z-[9999]  ">
+    <header className=" bg-[#1B76E9] lg:bg-transparent text-white max-lg:bg-blue-main max-lg:py-8 top-0 lg:absolute w-full lg:pt-[17px] lg:pb-[25px] text-res-body-p1 lg:text-body-p1 z-[9999]  ">
       <div id="main-navigation" className="relative z-[9999]">
         {/* lg device */}
         <div className="max-w-7xl mx-auto px-16 flex items-center flex-wrap justify-between">
@@ -200,13 +200,10 @@ const Navbar = () => {
               </svg>
             </button>
           </div>{" "}
-          <a
-            href="/en/contact-us"
-            className="border border-white bg-transparent hover:bg-white hover:text-blue-main hidden max-lg:w-full max-lg:justify-center max-lg:mt-16 pl-6 pr-10 py-[13px] text-res-link lg:text-link lg:flex items-center group/highlight transition-all drop-shadow-button-primary hover:shadow-button-primary rounded-xs"
-          >
+          <button className="border border-white bg-transparent hover:bg-white hover:text-blue-400 hidden max-lg:w-full max-lg:justify-center max-lg:mt-16 pl-6 pr-10 py-[13px] text-res-link lg:text-link lg:flex items-center group/highlight transition-all drop-shadow-button-primary hover:shadow-button-primary rounded-sm">
             Contact Us{" "}
             <svg
-              className="fill-white translate-x-3.5 transition-transform group-hover/highlight:translate-x-5 group-hover/highlight:fill-blue-main"
+              className="fill-white translate-x-3.5 transition-transform group-hover/highlight:translate-x-5 group-hover/highlight:fill-blue-400"
               width={7}
               height={11}
               viewBox="0 0 7 11"
@@ -215,10 +212,10 @@ const Navbar = () => {
             >
               <path d="M6.67969 5.89844L2.13281 10.4688C1.89844 10.6797 1.54688 10.6797 1.33594 10.4688L0.796875 9.92969C0.585938 9.71875 0.585938 9.36719 0.796875 9.13281L4.40625 5.5L0.796875 1.89062C0.585938 1.65625 0.585938 1.30469 0.796875 1.09375L1.33594 0.554688C1.54688 0.34375 1.89844 0.34375 2.13281 0.554688L6.67969 5.125C6.89062 5.33594 6.89062 5.6875 6.67969 5.89844Z" />
             </svg>
-          </a>
+          </button>
         </div>{" "}
         {/* mobile */}
-        <nav className="absolute top-[calc(95%_+_2rem)] bg-[#1B76E9] lg:hidden transition-transform w-full inset-x-0 py-8 -translate-x-full px-[1.938rem]">
+        <nav className="bg-[#1B76E9] absolute top-[calc(95%_+_2rem)]  lg:hidden transition-transform w-full inset-x-0 py-8 -translate-x-full px-[1.938rem]">
           <ul className="flex items-center flex-col space-y-8">
             {/* Solutions */}
             <li className="w-full whitespace-nowrap group lg:py-3 lg:px-6 lg:border-b border-white border-opacity-0 hover:border-opacity-100 transition-all duration-500 cursor-pointer !border-none">

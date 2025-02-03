@@ -1,6 +1,21 @@
-import React from "react";
+"use client";
+import React, { useState, useEffect } from "react";
 
 const ContactSvg = () => {
+  const [mousePos, setMousePos] = useState({ x: 0, y: 0 });
+
+  useEffect(() => {
+    const handleMouseMove = (event) => {
+      const { clientX, clientY } = event;
+      setMousePos({
+        x: (clientX / window.innerWidth - 0.5) * 20, // Adjust intensity
+        y: (clientY / window.innerHeight - 0.5) * 20,
+      });
+    };
+
+    window.addEventListener("mousemove", handleMouseMove);
+    return () => window.removeEventListener("mousemove", handleMouseMove);
+  }, []);
   return (
     <svg
       className="lg:block hidden absolute h-[120%] w-[120%] left-[-10%] top-[-10%]"
@@ -13,9 +28,7 @@ const ContactSvg = () => {
         <g
           id="dark-patterns"
           style={{
-            transform: "translate3d(-1.2487%, -0.00408052%, 0px)",
-            "--motion-translateX": 0,
-            "--motion-translateY": 0,
+            transform: `translate3d(${mousePos.x}px, ${mousePos.y}px, 0px)`,
             transition: "transform 500ms cubic-bezier(0.25, 0.46, 0.45, 0.94)",
           }}
         >
@@ -139,9 +152,9 @@ const ContactSvg = () => {
         <g
           id="light-patterns"
           style={{
-            transform: "translate3d(0.749219%, 0.00244831%, 0px)",
-            "--motion-translateX": 0,
-            "--motion-translateY": 0,
+            transform: `translate3d(${-mousePos.x / 2}px, ${
+              -mousePos.y / 2
+            }px, 0px)`,
             opacity: 1,
             transition: "transform 500ms cubic-bezier(0.25, 0.46, 0.45, 0.94)",
           }}

@@ -7,8 +7,8 @@ const Contact = () => {
       id="contact"
       className="relative h-[60vh] lg:h-[530px] w-full text-white bg-clip-cta overflow-hidden bg-[url('/backgrounds/ctaMobileWaveLines.svg')] bg-no-repeat bg-cover md:z-20 z-0 svelte-vr11vg"
     >
-      <div className="max-w-7xl mx-auto px-16 flex w-full items-start justify-center h-full relative z-10 flex-col mt-6">
-        <h2 className="font-Montserrat text-7xl text-white lg:text-6xl font-semibold mb-[24px]">
+      <div className="max-w-7xl mx-auto px-8 md:px-16 flex w-full items-start justify-center h-full relative z-10 flex-col mt-6">
+        <h2 className="font-Montserrat text-4xl text-white lg:text-7xl font-semibold mb-[24px]">
           Legacy no longer
         </h2>{" "}
         <p className="text-base lg:text-lg 2xl:text-xl lg:whitespace-pre-line mb-[30px]">

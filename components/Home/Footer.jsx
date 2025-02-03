@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <footer>
       <div className="bg-[#002045]">
-        <div className="max-w-7xl mx-auto px-16 flex items-center justify-between py-11">
+        <div className="max-w-7xl mx-auto px-8 md:px-16 flex items-center justify-between py-11">
           <button>
             <picture
               style={{
@@ -78,7 +78,7 @@ const Footer = () => {
       </div>
       <div className="border-b border-blue-dark" />
       <div className="bg-[#00152D]">
-        <div className="max-w-7xl mx-auto px-16 flex flex-col items-center justify-between py-6 text-res-body-p2 text-blue-main lg:flex-row lg:text-body-p2">
+        <div className="max-w-7xl mx-auto px-8 md:px-16 flex flex-col items-center justify-between py-6 text-res-body-p2 text-blue-main lg:flex-row lg:text-body-p2 text-sm">
           <p>
             <strong>©2023 All rights reserved</strong>. Any Technology Pte Ltd.
           </p>

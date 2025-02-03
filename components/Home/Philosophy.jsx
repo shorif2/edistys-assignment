@@ -2,12 +2,12 @@ import React from "react";
 
 const Philosophy = () => {
   return (
-    <div className="max-w-7xl mx-auto md:mb-[128px] px-16">
+    <div className="max-w-7xl mx-auto md:mb-[128px] px-8 md:px-16">
       <div className="undefined md:space-y-6 space-y-xs text-center">
         <h6 className="undefined lg:text-head-6 text-res-head-6 uppercase text-blue-main font-Montserrat">
           OUR PHILOSOPHY
         </h6>
-        <h2 className="undefined whitespace-pre-line font-Montserrat text-res-head-2 text-blue-text lg:text-head-2">
+        <h2 className="undefined whitespace-pre-line font-Montserrat text-res-head-2 text-blue-text lg:text-head-2 text-[32px] lg:text-[56px]">
           Human-centred innovation
         </h2>
         {/* div */}
@@ -23,8 +23,8 @@ const Philosophy = () => {
           />
         </div>
         {/* card */}
-        <ul className="grid grid-cols-3  gap-[30px] text-start pt-8">
-          <li className="z-20 h-full md:space-y-6 space-y-[8px] bg-[#F8FCFF] rounded-[20px] md:p-8 p-sm ">
+        <ul className="grid grid-col-1 md:grid-cols-2 lg:grid-cols-3  gap-[30px] text-start pt-8">
+          <li className="z-20 h-full md:space-y-6 space-y-[8px] bg-[#F8FCFF] rounded-[20px] p-6 md:p-8 p-sm ">
             <div className="w-fit rounded-full">
               <img
                 src="https://cdn.sanity.io/images/6jywt20u/production/28029da89383a59e47420ee46b7e4c364051b45f-50x50.svg?auto=format"
@@ -44,7 +44,7 @@ const Philosophy = () => {
               payment functions with our comprehensive suite of solutions.
             </p>
           </li>
-          <li className=" z-20 h-full md:space-y-6 space-y-[8px] bg-[#F8FCFF] rounded-[20px] md:p-8 p-sm ">
+          <li className=" z-20 h-full md:space-y-6 space-y-[8px] bg-[#F8FCFF] rounded-[20px] p-6 md:p-8 p-sm ">
             <div className="w-fit rounded-full">
               <img
                 src="https://cdn.sanity.io/images/6jywt20u/production/36c4da4283252fda5dce13c46ea3e06a5312218c-50x51.png?auto=format"
@@ -65,7 +65,7 @@ const Philosophy = () => {
               Big Data.
             </p>
           </li>
-          <li className=" z-20 h-full md:space-y-6 space-y-[8px] bg-[#F8FCFF] rounded-[20px] md:p-8 p-sm ">
+          <li className=" z-20 h-full md:space-y-6 space-y-[8px] bg-[#F8FCFF] rounded-[20px] md:p-8 p-6 ">
             <div className="w-fit rounded-full">
               <img
                 src="https://cdn.sanity.io/images/6jywt20u/production/1966d94a29ffe1673fd510327ba0eb409f82b680-50x50.svg?auto=format"

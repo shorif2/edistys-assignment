@@ -4,8 +4,8 @@ import Carousel from "../Carousel";
 
 const Technology = () => {
   return (
-    <div className="relative">
-      <div className="max-w-7xl mx-auto ">
+    <div className="relative pt-28 md:pt-0">
+      <div className="max-w-7xl mx-auto px-8 md:px-0">
         <div className="undefined md:space-y-sm space-y-xs text-center">
           <h6 className="undefined lg:text-head-6 text-res-head-6 uppercase text-blue-main font-Montserrat">
             TECHNOLOGY BUILT FOR YOU
@@ -15,7 +15,7 @@ const Technology = () => {
           </h2>
         </div>
         {/* Slider */}
-        <div className=" h-[500px] ">
+        <div className="pt-4">
           <Carousel />
         </div>
       </div>
