@@ -1,36 +1,90 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Landing Page Clone - AnyTxn
 
-## Getting Started
+## 🚀 Project Overview
 
-First, run the development server:
+This project is a recreation of the landing page at [anytxn.com/en](https://anytxn.com/en) as part of the frontend developer application process for Edistys. The goal was to replicate the page's design, animations, and responsiveness while ensuring a smooth user experience.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+## 📌 Requirements Fulfilled
+
+- ✅ **Animation**: Implemented smooth animations similar to the original page.
+- ✅ **Responsiveness**: The page is fully responsive and adapts well to different screen sizes.
+
+## 🛠️ Technology Stack
+
+The project is built using the following technologies:
+
+- **React.js** - For component-based development
+- **Next.js** - For better performance and SEO
+- **Tailwind CSS** - For rapid styling and responsiveness
+- **HTML, CSS, JavaScript** - Core web technologies for layout and interactivity
+
+## 📂 Project Structure
+
+```
+root/
+│-- public/                 # Static assets
+│-- src/
+│   │-- components/         # Reusable UI components
+│   │-- pages/              # Page components
+│   │-- styles/             # CSS/Tailwind styles
+│   │-- utils/              # Utility functions (if any)
+│-- .gitignore              # Git ignore file
+│-- package.json            # Dependencies and scripts
+│-- README.md               # Project documentation
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 📸 Screenshots
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+_Add relevant screenshots or GIFs showcasing the animations and responsiveness._
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 📦 Installation & Setup
 
-## Learn More
+To run this project locally, follow these steps:
 
-To learn more about Next.js, take a look at the following resources:
+### 1️⃣ Clone the repository:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```sh
+git clone https://github.com/shorif2/edistys-assignment
+cd edistys-assignment
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### 2️⃣ Install dependencies:
 
-## Deploy on Vercel
+```sh
+yarn install  # or npm install
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### 3️⃣ Start the development server:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+```sh
+yarn dev  # or npm run dev
+```
+
+### 4️⃣ Open the app in your browser:
+
+```sh
+http://localhost:3000
+```
+
+## 🔧 Features Implemented
+
+- 🎨 **Pixel-perfect UI** resembling the original design
+- 📱 **Fully responsive** layout optimized for all devices
+- ⚡ **Optimized performance** with Next.js
+
+## 🚀 Deployment
+
+The project is deployed using [Vercel Pages]. You can check out the live version here:
+[Live Demo](https://edistys-assignment.vercel.app/)
+
+## 📬 Contact
+
+If you have any questions or feedback, feel free to reach out:
+
+- 📧 Email: your.email@example.com
+- 🐦 Twitter: [@yourhandle](https://www.linkedin.com/in/sorifuzzaman/)
+- 💼 LinkedIn: [Your Profile](https://www.linkedin.com/in/sorifuzzaman/)
+
+---
+
+Made with ❤️ by [Your Name] 🚀
