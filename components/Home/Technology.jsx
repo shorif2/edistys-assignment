@@ -10,7 +10,7 @@ const Technology = () => {
           <h6 className="undefined lg:text-head-6 text-res-head-6 uppercase text-blue-main font-Montserrat">
             TECHNOLOGY BUILT FOR YOU
           </h6>
-          <h2 className="undefined whitespace-pre-line font-Montserrat text-res-head-2 text-blue-text lg:text-head-2">
+          <h2 className="undefined whitespace-pre-line font-Montserrat text-[32px] lg:text-[56px] font-semibold text-blue-text lg:text-head-2">
             The future of finance
           </h2>
         </div>
